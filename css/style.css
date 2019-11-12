@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://nhancefranchise.com/wp-content/uploads/2019/06/hero-img-mobile.jpg);
+}
+
+button {
+  border-radius: 5px;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+}
+
+/* header */
+.header-top {
+  line-height: 90px;
+  padding: 20px 0;
+}
+
+.logo {
+  height: 80px;
+  vertical-align: middle;
+}
+.logo-title {
+  display: inline;
+  color: #FFFFFF;
+}
+
+/* main */
+.title-unread {
+  color: #FFFFFF;
+}
+.title-unread span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  background: #FFA500;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.email {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.email p {
+  display: inline;
+}
+
+.read {
+  background-color: white;
+}
+
+.list-notype {
+  list-style: none;
+}
+/* footer */
+footer {
+  color: white;
+  text-align: center;
+}
